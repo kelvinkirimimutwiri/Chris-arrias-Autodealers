@@ -117,7 +117,7 @@ button:hover{
 }
 .col-2 .controller{
     width:50%;
-      top:-90%;
+      margin-top:-30%;
 }
 .color-box{
     position:absolute;
@@ -184,7 +184,7 @@ button:hover{
         height: 50px;
     }
     .add-btn{
-        margin-bottom: -50px;
+        margin-bottom: -90px;
         font-size: 10px;
     }
     .logo{
