@@ -121,7 +121,7 @@ button:hover{
 .color-box{
     position:absolute;
     right:60;
-    top:0;
+    top:-30;
     background:linear-gradient(#52fbf2,#5b34e9);
     border-radius:20px 00 20px;
     height:130%;
