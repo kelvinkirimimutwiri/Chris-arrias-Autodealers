@@ -121,7 +121,7 @@ button:hover{
 .color-box{
     position:absolute;
     right:60;
-    top:50;
+    top:50%;
     background:linear-gradient(#52fbf2,#5b34e9);
     border-radius:20px 00 20px;
     height:130%;
@@ -138,7 +138,7 @@ button:hover{
     text-align:left;
     color:#fff;
     cursor:pointer;
-    margin-bottom: 0px;
+    margin-bottom: -50px;
    
 }
 .social-links img{
