@@ -140,13 +140,14 @@
     background-color: rgb(59, 62, 204);
     }
     .social-links img{
-        height: 20px;
-        margin: 20px;
-        cursor:pointer;
-    }
-    .social-links{
-        text-align:center;
-    }
+    height: 20px;
+    margin: 50px;
+    cursor:pointer;
+}
+.social-links{
+    text-align:center;
+    margin-top:100px;
+}
 @media (max-width: 600px){
     .window .full-img{
         width: 70%;
