@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--Author- @techgeeks solutions-->
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Chris-arris Autodealers website page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div
+            <div class="navbar">
+                <img src="image/logo.png"class="logo">
+                <nav>
+                    <ul id="menuList">
+                        <li><a href=""> Brand New Cars</a></li>
+                        <li><a href=""> Car Hire</a></li>
+                        <li><a href=""> Motor Spareparts</a></li>
+                        <li><a href=""> Other</a></li>
+                    </ul>
+                </nav>
+                <img src="image/menu.png" class="menu-icon" onclick="togglemenu()">
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <h2>Chris-arris <br> Auto Dealers </h2>
+                    <h3>Buy/sell used cars here</h3>
+                    <p>(Good as new)</p>
+                    <h4>At discounted prices</h4><a href="usedcars.html">
+                    <button type="button">View Catalogue <img src="image/arrow.png">
+                    </button></a>
+                </div>
+                <div class="col-2">
+                    <img src="image/car.png" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <img src="image/sale.png"><br>
+                    Toyota Hilux Double Cab<br><br>
+                <small>Engine Capacity 2.4L & 2.8L; Transmission. Manual and Auto;
+                Full Type. Diesel; Fuel Tank Capacity. 80 Litres; Seats 5. </small>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="social-links">
+            <p> <small><center>Contact us on</center></small></p>
+                <a href="tel:0710290274" target="_blank">
+				<img src="image/mobile.png"</a>
+                <a href="https://wa.me/+254710290274" target="_blank">
+                <img src="image/whatsapp.png"</a>
+                <a href="http://www.telegram.com/Chris-arris Autodealers" target="_blank">
+                <img src="image/telegram.png"</a>
+                <a href="http://www.twitter.com/Chris-arris Autodealers" target="_blank">
+                <img src="image/tw.png"</a>
+                <a href="http://www.facebook.com/Chris-arris Autodealers" target="_blank">
+                <img src="image/fb.png"</a>
+                <a href="http://www.instagram.com/Chris-arris Autodealers" target="_blank">
+                <img src="image/ig.png"</a>
+                <a href="mailto:chrisarrisutodealers@gmail.com" target="_blank">
+                    <img src="image/email.png"
+                </a>
+        </div>
+        <script>
+            var menuList=document.getElementById("menuList");
+            menuList.style.maxHeight="0px";
+            function togglemenu(){
+                if(menuList.style.maxHeight=="0px")
+                {
+                    menuList.style.maxHeight="130px";
+                }
+                else{
+                    menuList.style.maxHeight="0px";
+                }
+            }
+            </script>
+    </body>
+    <footer>
+        <div class="footer">
+            Built on July 2022 by
+            <a href="mailto:techgeeksolutions@gmail.com" target="_blank">Techgeeks solutions</a>
+        </div>
+    </footer>
+</html>
