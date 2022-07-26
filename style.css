@@ -117,6 +117,7 @@ button:hover{
 }
 .col-2 .controller{
     width:50%;
+      top:-50%;
 }
 .color-box{
     position:absolute;
