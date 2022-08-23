@@ -123,7 +123,7 @@ button:hover{
     position:absolute;
     right:60;
     top:50;
-    background:linear-gradient(#52fbf2,#5b34e9);
+    background:linear-gradient(#52fbf2,rgb(137, 235, 9));
     border-radius:20px 00 20px;
     height:135%;
     width:100%;
